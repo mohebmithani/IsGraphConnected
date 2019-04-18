@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.emojione.EmojiOneView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="261.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isgraphconnected.AlertBoxController">
+   <children>
+      <Label fx:id="heading" alignment="BOTTOM_CENTER" focusTraversable="false" prefHeight="21.0" prefWidth="287.0" style="-fx-background-color: #ff4d4d;" text="Unexpected Node" textOverrun="CENTER_WORD_ELLIPSIS">
+         <graphic>
+            <EmojiOneView glyphName="NEGATIVE_SQUARED_CROSS_MARK" size="14" text="❎" wrappingWidth="11.0" />
+         </graphic>
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label fx:id="body" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="269.0" style="-fx-background-color: #262626;" text="Label" textAlignment="CENTER" textFill="#f8f4f4">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="button" buttonType="RAISED" onAction="#close" prefHeight="25.0" prefWidth="274.0" ripplerFill="#726d6d" style="-fx-background-color: #ff6666;" text="Exit">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></JFXButton>
+   </children>
+</VBox>

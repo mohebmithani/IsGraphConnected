@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="598.0" prefWidth="837.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isgraphconnected.IsConnectedController">
+   <children>
+      <Label alignment="CENTER" layoutX="188.0" layoutY="240.0" prefHeight="118.0" prefWidth="462.0" style="-fx-background-color: #ffffff;" text="Graph is Not-Connected" textAlignment="JUSTIFY" textFill="#4b859d">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="79.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="32.86" offsetX="0.5" radius="12.967500000000001" spread="0.35" width="21.01" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
