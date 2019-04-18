@@ -66,3 +66,15 @@ There are five major data structures used in this program:
 I’ve used JavaFX Material design library from JFoenix. I’ve used basic components from this library and also used FontAwesomeFX libray for better icons. Links to the library is given below:
 * JFoenix – [jfoenix-8.0.4]( https://github.com/jfoenixadmin/JFoenix)
 * FontAwesomeFX - [fontawesomefx-glyphsbrowser-1.3.0]( https://github.com/Jerady/fontawesomefx-glyphsbrowser)
+# Some Snippets: -
+   ## Adding Nodes:
+   ![Adding Node GIF](https://github.com/mohebmithani/IsGraphConnected/blob/master/IsGraphConnected/images/add_node.gif)
+   ## Adding Edges:
+   ![Adding Node GIF](https://github.com/mohebmithani/IsGraphConnected/blob/master/IsGraphConnected/images/add_edge.gif)
+   ## Getting Result:
+   ![Adding Node GIF](https://github.com/mohebmithani/IsGraphConnected/blob/master/IsGraphConnected/images/result.gif)
+###### Note:
+* This projects works only for 5 nodes. You can easily generalize it by carefully understanding it.
+* Since it is specific i'd to make 29 states for first FSM.
+   
+
